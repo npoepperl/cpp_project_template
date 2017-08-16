@@ -1,5 +1,9 @@
 ADD_SUBDIRECTORY(testLibUnderTest)
 
+
+# The following code is copied from http://kaizou.org/2014/11/gtest-cmake/
+# Thanks to Kaizou's blogpost I made my first successful steps with CMake
+
 # We need thread support
 find_package(Threads REQUIRED)
 
